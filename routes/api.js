@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')
 }
 
-var creatorList = ['@zahirrr','@zhirrrgans','@zhirr_ajalah','@zahiranjay', '@zahirganssss','@zhirrganteng','@zahirrgantengg'];
+var creatorList = ['@piyushraj00'];
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 
 
@@ -47,78 +47,78 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'masukan parameter key'
+        message: 'Input Key parameter'
     },
     noturl: {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'masukan parameter url'
+        message: 'Input URL parameter'
     },
     notkata: {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'masukan parameter kata'
+        message: 'Input Kata parameter'
     },
     nottext: {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'masukan parameter text'
+        message: 'Input Text parameter'
     },
     nottext2: {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'masukan parameter text2'
+        message: 'Input Text2 parameter'
     },
     notnabi: {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'masukan parameter nabi'
+        message: 'Input Nabi parameter'
     },
     nottext3: {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'masukan parameter text3'
+        message: 'Input Text3 parameter'
     },
     nottheme: {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'masukan parameter theme'
+        message: 'Input Theme parameter'
     },
     notusername: {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'masukan parameter username'
+        message: 'Input Username parameter'
     },
     notvalue: {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'masukan parameter value'
+        message: 'Input Value parameter'
     },
     notheme: {
     	status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'theme tidak tersedia silahkan masukkan texmaker/list atau baca documentasi'
+        message: 'theme is not available please enter texmaker/list or read documentation'
      },
     invalidKey: {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'apikey invalid, gak punya apikey? chat gw aja yaaa di wa.me/6283898698875 , key nya gratis kok gan, jadi santuyy ajaa'
+        message: 'apikey invalid, don't have apikey? Just chat me at t.me/piyush_raj007, the key is free, bro, so just stay safe'
     },
     invalidlink: {
         status: false,
         creator: `${creator}`,
-        message: 'error, mungkin link anda tidak valid.'
+        message: 'error, maybe your link is invalid.'
     },
     invalidkata: {
         status: false,
